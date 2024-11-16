@@ -1,7 +1,6 @@
 #Timofey
 
 def calculate_happiness(number):
-    """Функція для обчислення щасливості дня (зведення до однозначного числа)"""
     while len(str(number)) > 1:
         number = sum(int(digit) for digit in str(number))
     return number
