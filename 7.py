@@ -22,4 +22,4 @@ k = len(weeks)
 with open('7_output.txt', 'w') as file:
     file.write(f"{k}\n")
     file.write(" ".join(map(str, weeks)))
-print("Відповідь записано у файл 7_output.txt")
+print("Відповідь записано у файл 7_output.txt. Зверніть увагу що у вас повинен бути створений файл 7_input.txt з вхідними данними")
