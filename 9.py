@@ -2,8 +2,8 @@
 
 from datetime import datetime
 
-date_input = input("Введіть дату (рік місяць день): ")
-time_input = input("Введіть час (години хвилини секунди): ")
+date_input = input("Введіть дату через пробіл (рік місяць день): ")
+time_input = input("Введіть час через пробіл (години хвилини секунди): ")
 
 year, month, day = map(int, date_input.split())
 hour, minute, second = map(int, time_input.split())
